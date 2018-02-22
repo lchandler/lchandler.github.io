@@ -1,0 +1,40 @@
+body{
+	background:teal;
+}
+
+#sidebar {
+	height:400px;
+	width:200px;
+	/*float:left; --- don't need float with fixed posn*/ 
+	background:DarkSalmon;
+	/*margin:2em;*/
+	/*padding:1em;*/
+	position:fixed;
+	bottom:0px;
+}
+
+.sidebar-button{
+	padding:1em;
+	background:aqua;
+	margin:1em 0;
+}
+
+#content {
+	/*float:left;*/
+	margin-left:200px;
+	width:auto;
+	height:2000px;
+	background:teal;
+}
+
+.header{
+	font-size:4em;
+}
+
+.text{
+	color:white;
+}
+
+.tab{
+	display:none;
+}
